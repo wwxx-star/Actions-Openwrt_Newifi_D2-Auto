@@ -9,7 +9,7 @@
 #============================================================
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.99.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.9.1/g' package/base-files/files/bin/config_generate
 # 删除老argon
 rm -rf package/lean/luci-theme-argon
 # 拉取argon主题
