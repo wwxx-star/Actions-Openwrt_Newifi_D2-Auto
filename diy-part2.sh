@@ -19,3 +19,4 @@ git clone https://github.com/xiaorouji/openwrt-passwall2.git  package/luci-app-p
 # git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-app-serverchan
 #git clone https://github.com/jerrykuku/node-request.git package/lean/node-request
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
+git clone  https://github.com/leshanydy2022/luci-app-smartdns  package/luci-app-smartdns 
