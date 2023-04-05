@@ -14,10 +14,11 @@ sed -i 's/192.168.1.1/192.168.9.1/g' package/base-files/files/bin/config_generat
 rm -rf package/lean/luci-theme-argon
 # 拉取argon主题
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
-git clone https://github.com/xiaorouji/openwrt-passwall2.git  package/luci-app-passwall2
+#git clone https://github.com/xiaorouji/openwrt-passwall2.git  package/luci-app-passwall2
 # 拉取微信推送、京东签到插件
 # git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-app-serverchan
 #git clone https://github.com/jerrykuku/node-request.git package/lean/node-request
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
 #git clone  https://github.com/leshanydy2022/luci-app-smartdns  package/luci-app-smartdns 
-git clone https://github.com/kenzok8/small-package.git package/small-package
+git clone  https://github.com/kenzok8/openwrt-packages.git  package/kenzo
+git clone  https://github.com/kenzok8/small.git  package/small
