@@ -22,3 +22,5 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lea
 #git clone  https://github.com/leshanydy2022/luci-app-smartdns  package/luci-app-smartdns 
 git clone  https://github.com/kenzok8/openwrt-packages.git  package/kenzo
 git clone  https://github.com/kenzok8/small.git  package/small
+git clone  https://github.com/sbwml/luci-app-mosdns.git  package/luci-app-mosdns
+
