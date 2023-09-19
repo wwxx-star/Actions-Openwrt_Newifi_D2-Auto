@@ -15,8 +15,8 @@ sed -i 's/192.168.1.1/192.168.9.1/g' package/base-files/files/bin/config_generat
 # 拉取argon主题
 # git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 # git clone https://github.com/xiaorouji/openwrt-passwall2.git  package/luci-app-passwall2
-git clone  https://github.com/xiaorouji/openwrt-passwall.git  package/passwall
-git clone -b luci  https://github.com/xiaorouji/openwrt-passwall.git  package/luci-app-passwall
+git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
 # git clone -b master  https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 # git clone  https://github.com/panther706/luci-app-adguardhome.git  package/luci-app-adguardhome
 git clone https://github.com/xiaoxiao29/luci-app-adguardhome.git  package/luci-app-adguardhome 
