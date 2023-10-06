@@ -10,6 +10,7 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.9.1/g' package/base-files/files/bin/config_generate
+ 
 # 删除老argon
 # rm -rf package/lean/luci-theme-argon
 # 拉取argon主题
@@ -25,7 +26,7 @@ sed -i 's/192.168.1.1/192.168.9.1/g' package/base-files/files/bin/config_generat
 #git clone https://github.com/jerrykuku/node-request.git package/lean/node-request
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
 # git clone  https://github.com/leshanydy2022/luci-app-smartdns  package/luci-app-smartdns 
-git clone  https://github.com/NueXini/NueXini_Packages.git  package/NueXini_Packages
+# git clone  https://github.com/NueXini/NueXini_Packages.git  package/NueXini_Packages
 #git clone  https://github.com/kenzok8/openwrt-packages.git  package/kenzo
 #git clone  https://github.com/kenzok8/small-package.git  package/small-package
 #git clone  https://github.com/kenzok8/small.git  package/small
