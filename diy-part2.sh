@@ -18,12 +18,12 @@ sed -i 's/192.168.1.1/192.168.9.1/g' package/base-files/files/bin/config_generat
 # git clone https://github.com/xiaorouji/openwrt-passwall2.git  package/luci-app-passwall2
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
  git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
-# git clone -b master  https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+git clone -b master  https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 # #git clone https://github.com/Leslie-Wong/luci-app-passwall.git package/passwall/luci/luci-app-passwall
 # #git clone https://github.com/Yangself666/luci-app-passwall.git package/passwall/luci
 # #git clone https://github.com/xiaoxiao29/luci-app-adguardhome.git  package/luci-app-adguardhome 
 git clone https://github.com/XiaoBinin/luci-app-adguardhome  package/luci-app-adguardhome 
-git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
+# #git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 # #git clone https://github.com/wwxx-star/openwrt-packages1  package/openwrt-packages
 # 拉取微信推送、京东签到插件
 # git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-app-serverchan
